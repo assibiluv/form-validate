@@ -12,40 +12,41 @@
 <form class="form" id="form1">
 <div class="form-control">
 <label>First Name</label>
-<input type="text" placeholder="firstname" id="firstname">
-<small id='e1'>Error Message</small>
+<input type="text" placeholder="firstname" id="firstname" class="input-valid">
+<small id='e1' class="error-mssg"></small>
 </div>
 
 <div class="form-control">
 <label>Last Name</label>
-<input type="text" placeholder="lastname" id="lastname">
-<small id='e2'>Error Message</small>
+<input type="text" placeholder="lastname" id="lastname" class="input-valid">
+<small id='e2' class="error-mssg"></small>
 </div>
 
 <div class="form-control">
 <label>Email</label>
-<input type="email" placeholder="email" id="email">
-<small id='e3'>Error Message</small>
+<input type="email" placeholder="email" id="email" class="input-valid">
+<small id='e3' class="error-mssg"></small>
 </div>
 
 <div class="form-control">
 <label>Password</label>
-<input type="password" placeholder="password" id="password1">
-<small id='e4'>Error Message</small>
+<input type="password" placeholder="password" id="password1" class="input-valid">
+<small id='e4' class="error-mssg"></small>
 </div>
 
 <div class="form-control">
 <label>Password Checked</label>
-<input type="password" placeholder="password" id="password2">
-<small id="e5">Error Message</small>
+<input type="password" placeholder="password" id="password2" class="input-valid">
+<small id="e5" class="error-mssg"></small>
 </div>
 
 <div class="form-control">
 <label>Phone</label>
-<input type="number" placeholder="phone" id="phone">
-<small id='e6'>Error Message</small>
+<input type="number" placeholder="phone" id="phone" class="input-valid">
+<small id='e6' class="error-mssg"></small>
 </div>
-<button type="button" onclick="checkInputs()">Submit</button>
+ <!-- onclick="checkInputs()" -->
+<button type="submit" id="submit-check">Submit</button>
 </form>
 </div>
 </body>

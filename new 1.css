@@ -74,3 +74,12 @@ body{
 .form-control.error input{
 	border-color:#e74c3c;
 }
+
+.error-mssg{
+	border: 1px solid rgb(255, 58, 58);
+	padding:5px 10px;
+	background-color: rgba(255, 0, 0, 0.2);
+	border-radius: 7px;
+	display: none;
+	visibility: hidden;
+}
