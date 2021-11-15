@@ -44,7 +44,7 @@ body{
 	display:block;
 	font-family:inherit;
 	font-size:14px;
-	padding:10px;
+	padding:11px;
 	width:100%;
 }
 .form-control{
@@ -53,7 +53,6 @@ body{
 }
 .form-control small{
 	position:absolute;
-	
 	bottom:0;
 	left:0;
 }
@@ -68,18 +67,10 @@ body{
 	margin-top:20px;
 	width:100%;
 }
-.form-control.success input{
-	border-color:#2ecc71;
-}
-.form-control.error input{
-	border-color:#e74c3c;
-}
 
 .error-mssg{
-	border: 1px solid rgb(255, 58, 58);
 	padding:5px 10px;
-	background-color: rgba(255, 0, 0, 0.2);
-	border-radius: 7px;
+	border-radius: 7px;  
 	display: none;
 	visibility: hidden;
 }
