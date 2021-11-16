@@ -75,6 +75,7 @@ function checkInputs(){
 		e1.innerHTML = '';
 	}
 	else{
+		e1.style.fontStyle = 'italic'
 		e1.style.color = 'red'
 	 	e1.style.display = 'inline-block'
 	 	e1.style.visibility = 'visible'
@@ -88,6 +89,7 @@ function checkInputs(){
 		e2.innerHTML = '';
 	}
 	else{
+		e2.style.fontStyle = 'italic'
 		e2.style.color = 'red'
 	 	e2.style.display = 'inline-block'
 	 	e2.style.visibility = 'visible'
@@ -100,6 +102,7 @@ function checkInputs(){
 		e3.innerHTML = '';
 	}
 	else{
+		e3.style.fontStyle = 'italic'
 		e3.style.color = 'red'
 	 	e3.style.display = 'inline-block'
 	 	e3.style.visibility = 'visible'
@@ -112,6 +115,7 @@ function checkInputs(){
 		e4.innerHTML = '';
 	}
 	else{
+		e4.style.fontStyle = 'italic'
 		e4.style.color = 'red'
 	 	e4.style.display = 'inline-block'
 	 	e4.style.visibility = 'visible'
@@ -124,6 +128,7 @@ function checkInputs(){
 		e5.innerHTML = 'Password match';
 	}
 	else{
+		e5.style.fontStyle = 'italic'
 		e5.style.color = 'red'
 	 	e5.style.display = 'inline-block'
 	 	e5.style.visibility = 'visible'
@@ -136,6 +141,7 @@ function checkInputs(){
 		e6.innerHTML = '';
 	}
 	else{
+		e6.style.fontStyle = 'italic'
 		e6.style.color = 'red'
 	 	e6.style.display = 'inline-block'
 	 	e6.style.visibility = 'visible'
